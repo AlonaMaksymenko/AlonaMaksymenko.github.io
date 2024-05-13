@@ -4,6 +4,7 @@ AOS.init({
     once: true,
     delay: 10,
     duration: 800,
+    offset: 24,
     easing: 'ease-in-out',
 });
 
@@ -24,3 +25,4 @@ menuBtn.addEventListener('click', event => {
         document.documentElement.style.overflow = 'hidden';
     }
 })
+
